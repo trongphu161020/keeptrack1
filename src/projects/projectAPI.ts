@@ -1,5 +1,5 @@
 import { Project } from './Project';
-const baseUrl = 'http://localhost:4000';
+const baseUrl = 'https://json-server-vercel-snowy-omega.vercel.app/';
 const url = `${baseUrl}/projects`;
 
 function translateStatusToErrorMessage(status: number) {
